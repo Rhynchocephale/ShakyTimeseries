@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<station code="BIRF" start_date="2005-01-27T00:00:00">
+  <coordinate_prediction_model X0="-4833688.0087" Y0="317146.4986" Z0="-4135720.3609" ref_date="2000-01-01T00:00:00">
+    <components>
+      <component fit="yes" type="offset">
+        <parameter calc_date="2014-06-05T13:45:57" code="de_mm" covariance_index="0" error="0.1" fit="yes" value="133.7"/>
+        <parameter calc_date="2014-06-05T13:45:57" code="dn_mm" covariance_index="1" error="0.1" fit="yes" value="-148.0"/>
+        <parameter calc_date="2014-06-05T13:45:57" code="du_mm" covariance_index="2" error="0.3" fit="yes" value="25.1"/>
+      </component>
+      <component fit="yes" type="velocity">
+        <parameter calc_date="2014-06-05T13:45:57" code="ve_mmpy" covariance_index="3" error="0.014" fit="yes" value="-26.690"/>
+        <parameter calc_date="2014-06-05T13:45:57" code="vn_mmpy" covariance_index="4" error="0.012" fit="yes" value="29.124"/>
+        <parameter calc_date="2014-06-05T13:45:57" code="vu_mmpy" covariance_index="5" error="0.033" fit="yes" value="-4.283"/>
+      </component>
+      <component fit="no" type="annual">
+        <parameter calc_date="2014-06-05T13:45:52" code="ecos_mm" error="0.1" fit="yes" value="0.4"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="esin_mm" error="0.1" fit="yes" value="-0.5"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="ncos_mm" error="0.0" fit="yes" value="0.5"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="nsin_mm" error="0.0" fit="yes" value="0.2"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="ucos_mm" error="0.1" fit="yes" value="-0.1"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="usin_mm" error="0.1" fit="yes" value="0.3"/>
+      </component>
+      <component fit="no" type="semiannual">
+        <parameter calc_date="2014-06-05T13:45:52" code="ecos_mm" error="0.1" fit="yes" value="0.3"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="esin_mm" error="0.1" fit="yes" value="0.4"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="ncos_mm" error="0.0" fit="yes" value="0.3"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="nsin_mm" error="0.0" fit="yes" value="-0.1"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="ucos_mm" error="0.1" fit="yes" value="-0.3"/>
+        <parameter calc_date="2014-06-05T13:45:52" code="usin_mm" error="0.1" fit="yes" value="0.1"/>
+      </component>
+    </components>
+    <covariance size="6">
+      <element col="0" row="0" value="2.0221340691e-08"/>
+      <element col="0" row="1" value="7.55419358383e-25"/>
+      <element col="1" row="1" value="1.42781048429e-08"/>
+      <element col="0" row="2" value="0.0"/>
+      <element col="1" row="2" value="0.0"/>
+      <element col="2" row="2" value="1.14722913309e-07"/>
+      <element col="0" row="3" value="-5.26405985042e-12"/>
+      <element col="1" row="3" value="-3.91601450826e-28"/>
+      <element col="2" row="3" value="0.0"/>
+      <element col="3" row="3" value="1.47051623375e-15"/>
+      <element col="0" row="4" value="-1.96652276656e-28"/>
+      <element col="1" row="4" value="-3.71690477947e-12"/>
+      <element col="2" row="4" value="0.0"/>
+      <element col="3" row="4" value="1.01942472075e-31"/>
+      <element col="4" row="4" value="1.03831812904e-15"/>
+      <element col="0" row="5" value="0.0"/>
+      <element col="1" row="5" value="0.0"/>
+      <element col="2" row="5" value="-2.98648979279e-11"/>
+      <element col="3" row="5" value="0.0"/>
+      <element col="4" row="5" value="0.0"/>
+      <element col="5" row="5" value="8.34276547539e-15"/>
+    </covariance>
+  </coordinate_prediction_model>
+  <outages>
+    <outage end="2005-03-30T23:59:59" start="2005-02-09T00:00:00"/>
+    <outage end="2008-04-29T23:59:59" start="2008-04-29T00:00:00"/>
+    <outage end="2008-05-22T23:59:59" start="2008-05-22T00:00:00"/>
+    <outage end="2008-08-07T23:59:59" start="2008-08-07T00:00:00"/>
+    <outage end="2010-07-30T23:59:59" start="2010-07-30T00:00:00"/>
+    <outage end="2011-07-12T23:59:59" start="2011-07-12T00:00:00"/>
+    <outage end="2011-09-30T23:59:59" start="2011-09-30T00:00:00"/>
+    <outage end="2013-09-01T23:59:59" start="2013-08-20T00:00:00"/>
+  </outages>
+</station>

@@ -1,0 +1,6 @@
+    minimumDaysBetweenConsecutiveEarthquakes = int(20)
+    minimumSignificance = 0.999
+    windowSizes = [640,320,160,80,40,20]
+    #windowSizes = [25]
+    minimumJumpSizePlani = 2 #in millimetres
+    minimumJumpSizeAlti = 4

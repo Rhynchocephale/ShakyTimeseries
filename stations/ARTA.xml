@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<station code="ARTA" start_date="2008-11-06T00:00:00">
+  <coordinate_prediction_model X0="-4978881.1483" Y0="336247.3527" Z0="-3959466.7017" ref_date="2000-01-01T00:00:00">
+    <components>
+      <component fit="yes" type="offset">
+        <parameter code="de_mm" fit="yes" value="0.0"/>
+        <parameter code="dn_mm" fit="yes" value="0.0"/>
+        <parameter code="du_mm" fit="yes" value="0.0"/>
+      </component>
+      <component fit="yes" type="velocity">
+        <parameter code="ve_mmpy" fit="yes" value="0.000"/>
+        <parameter code="vn_mmpy" fit="yes" value="0.000"/>
+        <parameter code="vu_mmpy" fit="yes" value="0.000"/>
+      </component>
+      <component fit="no" type="annual">
+        <parameter code="ecos_mm" fit="yes" value="0.0"/>
+        <parameter code="esin_mm" fit="yes" value="0.0"/>
+        <parameter code="ncos_mm" fit="yes" value="0.0"/>
+        <parameter code="nsin_mm" fit="yes" value="0.0"/>
+        <parameter code="ucos_mm" fit="yes" value="0.0"/>
+        <parameter code="usin_mm" fit="yes" value="0.0"/>
+      </component>
+      <component fit="no" type="semiannual">
+        <parameter code="ecos_mm" fit="yes" value="0.0"/>
+        <parameter code="esin_mm" fit="yes" value="0.0"/>
+        <parameter code="ncos_mm" fit="yes" value="0.0"/>
+        <parameter code="nsin_mm" fit="yes" value="0.0"/>
+        <parameter code="ucos_mm" fit="yes" value="0.0"/>
+        <parameter code="usin_mm" fit="yes" value="0.0"/>
+      </component>
+    </components>
+  </coordinate_prediction_model>
+  <outages>
+    <outage end="2011-07-12T23:59:59" start="2011-07-12T00:00:00"/>
+    <outage end="2011-09-30T23:59:59" start="2011-09-30T00:00:00"/>
+    <outage end="2013-08-25T23:59:59" start="2013-08-12T00:00:00"/>
+  </outages>
+</station>
